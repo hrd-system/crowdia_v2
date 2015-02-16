@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+/* 最初の１文字を大文字にする */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, acronym, address,
+big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+/* 	text-transform:capitalize; */
+	text-transform:none;
+}
+.entry-content th, .comment-content th {
+/* 	text-transform:capitalize; */
+	text-transform:none;
+}
+
+button, .button, input[type="button"], input[type="reset"], input[type="submit"] {
+/* 	text-transform:capitalize; */
+	text-transform:none;
+}
+
+/* Contents */
+.masthead-fixed .site-main {
+	margin-top: 0px;
+}
+.entry-header .entry-title {
+	display: none;
+}
